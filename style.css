@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+h1 {
+    position: absolute;
+    width: 566px;
+    height: 88px;
+    left: 64px;
+    top: 110px;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    color: #110EAF;
+}
+p {
+    position: absolute;
+    width: 668px;
+    left: 64px;
+    top: 210px;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+}
+form {
+    position: absolute;
+    left: 64px;
+    top: 330px;
+}
+input[type=email] {
+    width: 402px;
+    height: 60px;
+    padding-left: 20px;
+    border: 1px solid #FFCD29;
+    border-radius: 8px;
+}
+input[placeholder] {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    color: #1E1E1E;
+}
+input[type=submit] {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1px;
+    top: 110px;
+    background: #110EAF;
+    border-radius: 10px;
+    border-style: none;
+    /* submit text */
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#check {
+    position: absolute;
+    left: 64px;
+    top: 400px;
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1E1E1E;
+}
+img {
+    box-sizing: border-box;
+    position: absolute;
+    width: 540px;
+    height: 495px;
+    left: 746px;
+    top: 60px;
+    background: #ECECEC;
+    border: 1.99352px solid #CFCDCD;
+}
